@@ -1,0 +1,29 @@
+{
+    "loginsucess": {
+        "email": "vinicius.maronezzi@example.com",
+        "password": "pwd123",
+        "name": "Vinicius"
+    },
+    "invalidpass": {
+        "email": "vinicius.maronezzi@example.com",
+        "password": "123456"
+    },
+    "invalidemail": {
+        "email": "vinicius.maronezzi@teste.com",
+        "password": "pwd123"
+    },
+    "shortpass": [
+        "1",
+        "12",
+        "123",
+        "1234",
+        "12345"
+    ],
+    "shortemail": [
+        "vini",
+        "vini@",
+        "$#@!#$",
+        "@",
+        "@.com.br"
+    ]
+}
