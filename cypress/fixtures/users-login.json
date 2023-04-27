@@ -2,7 +2,8 @@
     "loginsucess": {
         "email": "vinicius.maronezzi@example.com",
         "password": "pwd123",
-        "name": "Vinicius"
+        "name": "Vinicius",
+        "is_shaver": false
     },
     "invalidpass": {
         "email": "vinicius.maronezzi@example.com",

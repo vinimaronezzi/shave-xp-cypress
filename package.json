@@ -12,7 +12,10 @@
   "author": "Vinicius Maronezzi",
   "license": "ISC",
   "devDependencies": {
+    "bcrypt": "^5.1.0",
     "cypress": "^12.8.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
     "pg": "^8.10.0"
   }
 }
