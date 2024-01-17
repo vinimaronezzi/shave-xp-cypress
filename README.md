@@ -1,5 +1,6 @@
 # Automação de Testes para Barbearia Shave Experience
 Projeto de demonstração de automação de testes utilizando Cypress para uma plataforma de barbearia online. Este repositório destaca minha experiência em garantir a qualidade e funcionalidade de uma aplicação web destinada a serviços.
+O ambiente de desenvolvimento foi dispobilizado pela plataforma de cursos QAXperience.
 
 ## Objetivo do Projeto
 Este projeto foi desenvolvido para simular e testar as principais funcionalidades de uma plataforma de barbearia online. Os testes incluem cenários como login do usuário, criação de conta, recuperação de senha e solicitação de serviços de barbearia. Cada teste foi projetado para garantir a eficácia e segurança das operações essenciais do sistema.
