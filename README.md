@@ -1,30 +1,30 @@
-# Automação de Testes para Barbearia Shave Experience
-Projeto de demonstração de automação de testes utilizando Cypress para uma plataforma de barbearia online. Este repositório destaca minha experiência em garantir a qualidade e funcionalidade de uma aplicação web destinada a serviços.
+# Test Automation for Shave Experience Barber Shop
+A demonstration project showcasing test automation using Cypress for an online barber shop platform. This repository highlights my expertise in ensuring the quality and functionality of a web application designed for services.
 
-O ambiente de desenvolvimento foi dispobilizado pela plataforma de cursos QAXperience.
+## Project Objective
+This project was developed to simulate and test the main functionalities of an online barber shop platform. The tests include scenarios such as user login, account creation, password recovery, and barber shop service requests. Each test was designed to ensure the effectiveness and security of essential system operations.
 
-## Objetivo do Projeto
-Este projeto foi desenvolvido para simular e testar as principais funcionalidades de uma plataforma de barbearia online. Os testes incluem cenários como login do usuário, criação de conta, recuperação de senha e solicitação de serviços de barbearia. Cada teste foi projetado para garantir a eficácia e segurança das operações essenciais do sistema.
+This development environment was provided by the QAXperience courses platform for the Cypress eXperience course.
 
-## Tecnologias Utilizadas
+## Technologies Used
 - Cypress
 - Node.js
 - PostgreSQL
 - Express
-- Ethereal (serviço SMTP para envio de email)
+- Ethereal (SMTP service for email sending)
 - Joi
 - Bcrypt
 
-# Suites de Teste
-PS: Todos os vídeos estão com um delay, para melhor visibilidade dos testes.
+# Test Suites
+PS: All videos have a delay for better test visibility.
 
 ## Suite: Login
 https://github.com/vinimaronezzi/shave-xp-cypress/assets/129127304/6e69a6db-7905-4773-ac00-f62b55d5a81c
 
-## Suite: Reset de Senha
+## Suite: Password Recovery
 https://github.com/vinimaronezzi/shave-xp-cypress/assets/129127304/1a2ba8be-1d09-4162-ac0a-71cb02b008d1
 
-## Suite: Solicitação de Serviço
+## Suite: Order Service
 https://github.com/vinimaronezzi/shave-xp-cypress/assets/129127304/4658e81a-72b2-4685-9f12-a1a04a0783b2
 
 
