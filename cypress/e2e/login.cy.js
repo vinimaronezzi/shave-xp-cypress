@@ -8,7 +8,7 @@ describe('login', () => {
 
   context('quando submeto o formulário', () => {
 
-    it('deve logar com sucesso', () => {
+    it('should login successfully', () => {
       
       const user = data.loginsucess
       cy.createUser(user)
@@ -18,7 +18,7 @@ describe('login', () => {
 
     })
 
-    it('não deve logar com senha incorreta', () => {
+    it('should not login with incorrect password', () => {
 
       const user = data.invalidpass
       const message = 'Ocorreu um erro ao fazer login, verifique suas credenciais.'
@@ -28,7 +28,7 @@ describe('login', () => {
 
     })
 
-    it('não deve logar com email inexistente', () => {
+    it('should not login with non-existent email', () => {
 
       const user = data.invalidemail
 
@@ -39,7 +39,7 @@ describe('login', () => {
 
     })
 
-    it('campos obrigatórios', () => {
+    it('mandatory fields', () => {
       loginPage.submit()
       loginPage.requiredFields('E-mail é obrigatório', 'Senha é obrigatória')
 
@@ -47,9 +47,9 @@ describe('login', () => {
 
   })
 
-  context('Senha muito curta', () => {
+  context('short password', () => {
     data.shortpass.forEach((p) => {
-      it(`não deve logar com a senha: ${p}`, () => {
+      it(`should not login with password: ${p}`, () => {
         loginPage.submit('vinicius.maronezzi@example.com', p)
         loginPage.alertShouldBe('Pelo menos 6 caracteres')
 
@@ -59,9 +59,9 @@ describe('login', () => {
 
   })
 
-  context('Email no formato incorreto', () => {
+  context('incorrect email format', () => {
     data.shortemail.forEach((e) => {
-      it(`não deve logar com o email: ${e}`, () => {
+      it(`should not login with email: ${e}`, () => {
         loginPage.submit(e, 'pwd123')
         loginPage.alertShouldBe('Informe um email válido')
 

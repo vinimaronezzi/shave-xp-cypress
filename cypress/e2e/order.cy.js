@@ -5,8 +5,8 @@ import shaversPage from '../support/pages/shavers'
 import catalogPage from '../support/pages/catalogo'  
 import orderPage from '../support/pages/order'
 
-describe('pedido', () => {
-    context('usuario logado', () => {
+describe('order', () => {
+    context('logged user', () => {
         const {customer, shaver, service} = data
 
         before(() => {
@@ -14,7 +14,7 @@ describe('pedido', () => {
             cy.apiLogin(customer)
         })
 
-        it('deve poder solicitar serivços', () => {
+        it('should order services', () => {
             shaversPage.selectShaver(shaver.name)
             catalogPage.hasShaver(shaver.name)
             

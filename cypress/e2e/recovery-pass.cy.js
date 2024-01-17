@@ -3,8 +3,8 @@ import resetPassPage from "../support/pages/reset-pass"
 import loginPage from "../support/pages/login"
 import shaversPage from "../support/pages/shavers"
 
-describe('esqueci minha senha', () => {
-    it('deve poder solicitar o resgate de senha', () => {
+describe('forgot password', () => {
+    it('should request password recovery', () => {
         
         const user = {
             name: 'Vinicius Esquecido',
@@ -22,7 +22,7 @@ describe('esqueci minha senha', () => {
         forgotPassPage.noticeShouldBe(message);
     })
 
-    context('quando o usuário solicita resgate de senha', () => {
+    context('when user request password recovery', () => {
 
         const user = {
             name: 'Vinicius Clone',
@@ -37,7 +37,7 @@ describe('esqueci minha senha', () => {
             cy.getToken(user.email)
         })
 
-        it('deve poder cadastrar uma nova senha', () => {
+        it('should register a new password', () => {
 
             const message = 'Agora você já pode logar com a sua nova senha secreta.'
 
