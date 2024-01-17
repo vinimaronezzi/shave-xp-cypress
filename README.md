@@ -16,7 +16,7 @@ This development environment was provided by the QAXperience courses platform fo
 - Bcrypt
 
 # Test Suites
-PS: All videos have a delay for better test visibility.
+PS: All videos have been slowed down for improved test visibility.
 
 ## Suite: Login
 https://github.com/vinimaronezzi/shave-xp-cypress/assets/129127304/6e69a6db-7905-4773-ac00-f62b55d5a81c
