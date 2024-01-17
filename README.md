@@ -4,8 +4,6 @@ A demonstration project showcasing test automation using Cypress for an online b
 ## Project Objective
 This project was developed to simulate and test the main functionalities of an online barber shop platform. The tests include scenarios such as user login, account creation, password recovery, and barber shop service requests. Each test was designed to ensure the effectiveness and security of essential system operations.
 
-This development environment was provided by the QAXperience courses platform for the Cypress eXperience course.
-
 ## Technologies Used
 - Cypress
 - Node.js
